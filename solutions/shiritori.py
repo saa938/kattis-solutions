@@ -9,9 +9,8 @@ for i in range(N-1):
 		if i % 2 == 0:
 			print("Player 2 lost")
 		else: print("Player 1 lost")
-		bool = True
 		break
 	s.add(string)
 	prev = string
-if bool == False:
+else:
 	print('Fair Game')
